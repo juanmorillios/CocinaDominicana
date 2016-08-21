@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87BEE9DA1D69EEA5004582F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BEE9D91D69EEA5004582F8 /* AppDelegate.swift */; };
+		87BEE9DC1D69EEA5004582F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BEE9DB1D69EEA5004582F8 /* ViewController.swift */; };
+		87BEE9DF1D69EEA5004582F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87BEE9DD1D69EEA5004582F8 /* Main.storyboard */; };
+		87BEE9E11D69EEA5004582F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87BEE9E01D69EEA5004582F8 /* Assets.xcassets */; };
+		87BEE9E41D69EEA5004582F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87BEE9E21D69EEA5004582F8 /* LaunchScreen.storyboard */; };
+		87BEE9EF1D69EEA5004582F8 /* CocinaDominicanaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BEE9EE1D69EEA5004582F8 /* CocinaDominicanaTests.swift */; };
+		87BEE9FA1D69EEA6004582F8 /* CocinaDominicanaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BEE9F91D69EEA6004582F8 /* CocinaDominicanaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87BEE9EB1D69EEA5004582F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87BEE9CE1D69EEA5004582F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87BEE9D51D69EEA5004582F8;
+			remoteInfo = CocinaDominicana;
+		};
+		87BEE9F61D69EEA6004582F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87BEE9CE1D69EEA5004582F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87BEE9D51D69EEA5004582F8;
+			remoteInfo = CocinaDominicana;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87BEE9D61D69EEA5004582F8 /* CocinaDominicana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocinaDominicana.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87BEE9D91D69EEA5004582F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		87BEE9DB1D69EEA5004582F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		87BEE9DE1D69EEA5004582F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87BEE9E01D69EEA5004582F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87BEE9E31D69EEA5004582F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87BEE9E51D69EEA5004582F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87BEE9EA1D69EEA5004582F8 /* CocinaDominicanaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocinaDominicanaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87BEE9EE1D69EEA5004582F8 /* CocinaDominicanaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocinaDominicanaTests.swift; sourceTree = "<group>"; };
+		87BEE9F01D69EEA5004582F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87BEE9F51D69EEA6004582F8 /* CocinaDominicanaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocinaDominicanaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87BEE9F91D69EEA6004582F8 /* CocinaDominicanaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocinaDominicanaUITests.swift; sourceTree = "<group>"; };
+		87BEE9FB1D69EEA6004582F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87BEE9D31D69EEA5004582F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87BEE9E71D69EEA5004582F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87BEE9F21D69EEA6004582F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87BEE9CD1D69EEA5004582F8 = {
+			isa = PBXGroup;
+			children = (
+				87BEE9D81D69EEA5004582F8 /* CocinaDominicana */,
+				87BEE9ED1D69EEA5004582F8 /* CocinaDominicanaTests */,
+				87BEE9F81D69EEA6004582F8 /* CocinaDominicanaUITests */,
+				87BEE9D71D69EEA5004582F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87BEE9D71D69EEA5004582F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87BEE9D61D69EEA5004582F8 /* CocinaDominicana.app */,
+				87BEE9EA1D69EEA5004582F8 /* CocinaDominicanaTests.xctest */,
+				87BEE9F51D69EEA6004582F8 /* CocinaDominicanaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87BEE9D81D69EEA5004582F8 /* CocinaDominicana */ = {
+			isa = PBXGroup;
+			children = (
+				87BEE9D91D69EEA5004582F8 /* AppDelegate.swift */,
+				87BEE9DB1D69EEA5004582F8 /* ViewController.swift */,
+				87BEE9DD1D69EEA5004582F8 /* Main.storyboard */,
+				87BEE9E01D69EEA5004582F8 /* Assets.xcassets */,
+				87BEE9E21D69EEA5004582F8 /* LaunchScreen.storyboard */,
+				87BEE9E51D69EEA5004582F8 /* Info.plist */,
+			);
+			path = CocinaDominicana;
+			sourceTree = "<group>";
+		};
+		87BEE9ED1D69EEA5004582F8 /* CocinaDominicanaTests */ = {
+			isa = PBXGroup;
+			children = (
+				87BEE9EE1D69EEA5004582F8 /* CocinaDominicanaTests.swift */,
+				87BEE9F01D69EEA5004582F8 /* Info.plist */,
+			);
+			path = CocinaDominicanaTests;
+			sourceTree = "<group>";
+		};
+		87BEE9F81D69EEA6004582F8 /* CocinaDominicanaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87BEE9F91D69EEA6004582F8 /* CocinaDominicanaUITests.swift */,
+				87BEE9FB1D69EEA6004582F8 /* Info.plist */,
+			);
+			path = CocinaDominicanaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87BEE9D51D69EEA5004582F8 /* CocinaDominicana */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87BEE9FE1D69EEA6004582F8 /* Build configuration list for PBXNativeTarget "CocinaDominicana" */;
+			buildPhases = (
+				87BEE9D21D69EEA5004582F8 /* Sources */,
+				87BEE9D31D69EEA5004582F8 /* Frameworks */,
+				87BEE9D41D69EEA5004582F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocinaDominicana;
+			productName = CocinaDominicana;
+			productReference = 87BEE9D61D69EEA5004582F8 /* CocinaDominicana.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87BEE9E91D69EEA5004582F8 /* CocinaDominicanaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87BEEA011D69EEA6004582F8 /* Build configuration list for PBXNativeTarget "CocinaDominicanaTests" */;
+			buildPhases = (
+				87BEE9E61D69EEA5004582F8 /* Sources */,
+				87BEE9E71D69EEA5004582F8 /* Frameworks */,
+				87BEE9E81D69EEA5004582F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87BEE9EC1D69EEA5004582F8 /* PBXTargetDependency */,
+			);
+			name = CocinaDominicanaTests;
+			productName = CocinaDominicanaTests;
+			productReference = 87BEE9EA1D69EEA5004582F8 /* CocinaDominicanaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87BEE9F41D69EEA6004582F8 /* CocinaDominicanaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87BEEA041D69EEA6004582F8 /* Build configuration list for PBXNativeTarget "CocinaDominicanaUITests" */;
+			buildPhases = (
+				87BEE9F11D69EEA6004582F8 /* Sources */,
+				87BEE9F21D69EEA6004582F8 /* Frameworks */,
+				87BEE9F31D69EEA6004582F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87BEE9F71D69EEA6004582F8 /* PBXTargetDependency */,
+			);
+			name = CocinaDominicanaUITests;
+			productName = CocinaDominicanaUITests;
+			productReference = 87BEE9F51D69EEA6004582F8 /* CocinaDominicanaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87BEE9CE1D69EEA5004582F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = JuanMorillios;
+				TargetAttributes = {
+					87BEE9D51D69EEA5004582F8 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6ZJQ583HU9;
+						ProvisioningStyle = Automatic;
+					};
+					87BEE9E91D69EEA5004582F8 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6ZJQ583HU9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 87BEE9D51D69EEA5004582F8;
+					};
+					87BEE9F41D69EEA6004582F8 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6ZJQ583HU9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 87BEE9D51D69EEA5004582F8;
+					};
+				};
+			};
+			buildConfigurationList = 87BEE9D11D69EEA5004582F8 /* Build configuration list for PBXProject "CocinaDominicana" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87BEE9CD1D69EEA5004582F8;
+			productRefGroup = 87BEE9D71D69EEA5004582F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87BEE9D51D69EEA5004582F8 /* CocinaDominicana */,
+				87BEE9E91D69EEA5004582F8 /* CocinaDominicanaTests */,
+				87BEE9F41D69EEA6004582F8 /* CocinaDominicanaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87BEE9D41D69EEA5004582F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87BEE9E41D69EEA5004582F8 /* LaunchScreen.storyboard in Resources */,
+				87BEE9E11D69EEA5004582F8 /* Assets.xcassets in Resources */,
+				87BEE9DF1D69EEA5004582F8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87BEE9E81D69EEA5004582F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87BEE9F31D69EEA6004582F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87BEE9D21D69EEA5004582F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87BEE9DC1D69EEA5004582F8 /* ViewController.swift in Sources */,
+				87BEE9DA1D69EEA5004582F8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87BEE9E61D69EEA5004582F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87BEE9EF1D69EEA5004582F8 /* CocinaDominicanaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87BEE9F11D69EEA6004582F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87BEE9FA1D69EEA6004582F8 /* CocinaDominicanaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87BEE9EC1D69EEA5004582F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87BEE9D51D69EEA5004582F8 /* CocinaDominicana */;
+			targetProxy = 87BEE9EB1D69EEA5004582F8 /* PBXContainerItemProxy */;
+		};
+		87BEE9F71D69EEA6004582F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87BEE9D51D69EEA5004582F8 /* CocinaDominicana */;
+			targetProxy = 87BEE9F61D69EEA6004582F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		87BEE9DD1D69EEA5004582F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87BEE9DE1D69EEA5004582F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87BEE9E21D69EEA5004582F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87BEE9E31D69EEA5004582F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87BEE9FC1D69EEA6004582F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87BEE9FD1D69EEA6004582F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87BEE9FF1D69EEA6004582F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6ZJQ583HU9;
+				INFOPLIST_FILE = CocinaDominicana/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juanmorillios.CocinaDominicana;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		87BEEA001D69EEA6004582F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6ZJQ583HU9;
+				INFOPLIST_FILE = CocinaDominicana/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juanmorillios.CocinaDominicana;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		87BEEA021D69EEA6004582F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6ZJQ583HU9;
+				INFOPLIST_FILE = CocinaDominicanaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juanmorillios.CocinaDominicanaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CocinaDominicana.app/CocinaDominicana";
+			};
+			name = Debug;
+		};
+		87BEEA031D69EEA6004582F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6ZJQ583HU9;
+				INFOPLIST_FILE = CocinaDominicanaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juanmorillios.CocinaDominicanaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CocinaDominicana.app/CocinaDominicana";
+			};
+			name = Release;
+		};
+		87BEEA051D69EEA6004582F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6ZJQ583HU9;
+				INFOPLIST_FILE = CocinaDominicanaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juanmorillios.CocinaDominicanaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CocinaDominicana;
+			};
+			name = Debug;
+		};
+		87BEEA061D69EEA6004582F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6ZJQ583HU9;
+				INFOPLIST_FILE = CocinaDominicanaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juanmorillios.CocinaDominicanaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CocinaDominicana;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87BEE9D11D69EEA5004582F8 /* Build configuration list for PBXProject "CocinaDominicana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87BEE9FC1D69EEA6004582F8 /* Debug */,
+				87BEE9FD1D69EEA6004582F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87BEE9FE1D69EEA6004582F8 /* Build configuration list for PBXNativeTarget "CocinaDominicana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87BEE9FF1D69EEA6004582F8 /* Debug */,
+				87BEEA001D69EEA6004582F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		87BEEA011D69EEA6004582F8 /* Build configuration list for PBXNativeTarget "CocinaDominicanaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87BEEA021D69EEA6004582F8 /* Debug */,
+				87BEEA031D69EEA6004582F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		87BEEA041D69EEA6004582F8 /* Build configuration list for PBXNativeTarget "CocinaDominicanaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87BEEA051D69EEA6004582F8 /* Debug */,
+				87BEEA061D69EEA6004582F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87BEE9CE1D69EEA5004582F8 /* Project object */;
+}
