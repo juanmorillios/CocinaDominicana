@@ -32,11 +32,10 @@ class DetailViewController: UIViewController {
 
         
         //Ajustar la fila para el tamaño standar de la celda
-        self.tableViewDetailRecetas.estimatedRowHeight = 44.0
+        self.tableViewDetailRecetas.estimatedRowHeight = 46.0
         self.tableViewDetailRecetas.rowHeight = UITableViewAutomaticDimension
 
     }
-    
     
     override func viewWillAppear(_ animated: Bool) {
         
@@ -55,13 +54,9 @@ class DetailViewController: UIViewController {
     
     @IBAction func close(segue: UIStoryboardSegue) {
         
-        
-        
+
     }
-    
-    
-    
-    
+
 }
 
 
@@ -71,9 +66,9 @@ extension DetailViewController : UITableViewDataSource, UITableViewDelegate {
     func numberOfSections(in tableView: UITableView) -> Int {
         return 3    }
     
+   
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
-        
+       
         switch section {
         case 0:
             return 3
@@ -118,8 +113,7 @@ extension DetailViewController : UITableViewDataSource, UITableViewDelegate {
         case 1:
             if indexPath.row == 0 {
              cell.keyValueLabel.text = "Ingredientes:"
-            
-            
+         
             } else {
                 cell.keyValueLabel.text = ""
         }
@@ -156,6 +150,13 @@ extension DetailViewController : UITableViewDataSource, UITableViewDelegate {
         return title
     }
 
+}
+
+    //Ocultar StatusBar
+    var prefersStatusBarHidden:  Bool {
+    
+    return true
+    
 }
 
 

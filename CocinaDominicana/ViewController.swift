@@ -74,14 +74,13 @@ class ViewController: UITableViewController {
                          pasos: ["Paso1: Hervir las patatas y Huevos","Paso2: Mezclarlo todo","Paso3: Poner mayonesa + huevos + atún"])
         recetas.append(receta)
     }
-    
+
     //Actualizar para animar
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         navigationController?.hidesBarsOnSwipe = true
     }
 
-    
     // MARK: UITableViewDataSource
     
     
@@ -90,11 +89,9 @@ class ViewController: UITableViewController {
         return 1
         
     }
-    
-    
+   
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    
-    
+ 
         return recetas.count
     
     }
@@ -196,16 +193,16 @@ class ViewController: UITableViewController {
         let receta = self.recetas[indexPath.row]
         
         
-        let alertViewController = UIAlertController(title: "\(receta.nombre!)", message: "Valora ésta receta", preferredStyle: .alert)
+        let alertViewController = UIAlertController(title: "\(receta.nombre!)", message: "Valora esta receta", preferredStyle: .actionSheet)
         
         
-        var favoriteActionTitle = "Favorito"
+        var favoriteActionTitle = "Me gusta"
         var favouriteActionStyle = UIAlertActionStyle.default
         
         
         if receta.isFavorite {
         
-        favoriteActionTitle = "No es favorito"
+        favoriteActionTitle = "No me gusta"
         favouriteActionStyle = UIAlertActionStyle.destructive
        
         }
@@ -231,7 +228,7 @@ class ViewController: UITableViewController {
         alertViewController.addAction(favoriteAction)
         self.present(alertViewController, animated: true, completion: nil)
         
-    }     
+    }
     
     override func prepare(for segue: UIStoryboardSegue, sender: AnyObject?) {
     
