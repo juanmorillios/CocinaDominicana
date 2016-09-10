@@ -116,11 +116,11 @@ class ViewController: UITableViewController {
        cell.ingredientesLabel.text = "Ingredientes: \(recetas.ingredientes.count)"
        
       //Aplicar cambios a la imagen para que sea Circular por código
-     //  cell.smallimage.layer.cornerRadius = 58.0
-       cell.smallimage.layer.borderWidth = 0.8
-       //cell.smallimage.clipsToBounds = true
+      //cell.smallimage.layer.cornerRadius = 58.0
+       //cell.smallimage.layer.borderWidth = 0.2
+      //cell.smallimage.clipsToBounds = true
         
-        //Asignamos la imagen que representa fvorito a la receta.
+       //Asignamos la imagen que representa fvorito a la receta.
         if recetas.isFavorite {
             
             cell.accessoryType = .checkmark
@@ -191,7 +191,7 @@ class ViewController: UITableViewController {
 
     //MARK: UITableViewDelegate
     
-  /*  override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+ override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         let receta = self.recetas[indexPath.row]
         
@@ -231,8 +231,7 @@ class ViewController: UITableViewController {
         alertViewController.addAction(favoriteAction)
         self.present(alertViewController, animated: true, completion: nil)
         
-    } */
-    
+    }     
     
     override func prepare(for segue: UIStoryboardSegue, sender: AnyObject?) {
     

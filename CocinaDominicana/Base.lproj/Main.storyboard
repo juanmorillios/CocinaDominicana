@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11185.3" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="7vU-wy-1GE">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11185.3" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="7vU-wy-1GE">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11151.4"/>
@@ -13,16 +13,16 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CocinaDominicana" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="133" sectionHeaderHeight="28" sectionFooterHeight="28" id="puo-ei-eHU">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="102" sectionHeaderHeight="28" sectionFooterHeight="28" id="puo-ei-eHU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellRecetas" id="oXP-Rl-7iO" customClass="RecetaCell" customModule="CocinaDominicana" customModuleProvider="target">
-                                <frame key="frameInset" minY="92" width="375" height="133"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellRecetas" rowHeight="102" id="oXP-Rl-7iO" customClass="RecetaCell" customModule="CocinaDominicana" customModuleProvider="target">
+                                <frame key="frameInset" minY="92" width="375" height="102"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="oXP-Rl-7iO" id="yeH-fv-5aO">
-                                    <frame key="frameInset" width="375" height="132"/>
+                                    <frame key="frameInset" width="375" height="101"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RTC-k5-KLf">
@@ -31,7 +31,7 @@
                                             </constraints>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                    <integer key="value" value="58"/>
+                                                    <integer key="value" value="45"/>
                                                 </userDefinedRuntimeAttribute>
                                             </userDefinedRuntimeAttributes>
                                         </imageView>
@@ -58,12 +58,12 @@
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="RTC-k5-KLf" firstAttribute="top" secondItem="yeH-fv-5aO" secondAttribute="top" constant="8" id="8wD-Aw-SBg"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="xAU-Bb-Sxe" secondAttribute="bottom" constant="8" id="GME-K0-1tX"/>
-                                        <constraint firstItem="xAU-Bb-Sxe" firstAttribute="leading" secondItem="RTC-k5-KLf" secondAttribute="trailing" constant="20" id="PwR-0h-idT"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="xAU-Bb-Sxe" secondAttribute="bottom" constant="23" id="GME-K0-1tX"/>
+                                        <constraint firstItem="xAU-Bb-Sxe" firstAttribute="leading" secondItem="RTC-k5-KLf" secondAttribute="trailing" constant="8" id="PwR-0h-idT"/>
                                         <constraint firstItem="RTC-k5-KLf" firstAttribute="leading" secondItem="yeH-fv-5aO" secondAttribute="leading" constant="8" id="XrB-NK-pLi"/>
-                                        <constraint firstAttribute="bottom" secondItem="RTC-k5-KLf" secondAttribute="bottom" constant="8" id="aUa-Nl-WhS"/>
-                                        <constraint firstItem="xAU-Bb-Sxe" firstAttribute="top" secondItem="yeH-fv-5aO" secondAttribute="topMargin" constant="8" id="b6y-cG-PTn"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="xAU-Bb-Sxe" secondAttribute="trailing" constant="20" id="lE9-dD-xZs"/>
+                                        <constraint firstAttribute="bottom" secondItem="RTC-k5-KLf" secondAttribute="bottom" constant="7" id="aUa-Nl-WhS"/>
+                                        <constraint firstItem="xAU-Bb-Sxe" firstAttribute="top" secondItem="yeH-fv-5aO" secondAttribute="topMargin" id="b6y-cG-PTn"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="xAU-Bb-Sxe" secondAttribute="trailing" constant="29" id="lE9-dD-xZs"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
@@ -131,7 +131,7 @@
                                         <frame key="frameInset" minY="28" width="375" height="73"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eXT-3h-W2f" id="AV6-78-VTy">
-                                            <frame key="frameInset" width="375" height="72"/>
+                                            <frame key="frameInset" width="375" height="73"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="nXO-4n-yLi">
@@ -143,7 +143,7 @@
                                                         </label>
                                                         <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DetailRecetasCell" rowHeight="73" translatesAutoresizingMaskIntoConstraints="NO" id="WZ3-2R-MYO" customClass="RecetasDetailViewCell" customModule="CocinaDominicana" customModuleProvider="target">
                                                             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WZ3-2R-MYO" id="VdM-xi-4Pu">
-                                                                <frame key="frameInset" width="113" height="55"/>
+                                                                <frame key="frameInset" width="113" height="56"/>
                                                                 <autoresizingMask key="autoresizingMask"/>
                                                                 <subviews>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="fRN-kk-Tvc">
